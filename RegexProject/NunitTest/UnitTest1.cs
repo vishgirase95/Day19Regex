@@ -19,8 +19,16 @@ namespace NunitTest
         [Test]
         public void GivenUserInput_ShouldValidate_GivenPatternOfFirstName()
         {
-            var result=obj.FirstNameValidate("Vishal");
+            var result = obj.FirstNameValidate("Vishal");
+            Assert.IsTrue(result);
+        }
+
+        [Test]
+        public void GivenUserInput_ShouldValidate_GivenPatternOfLirstName()
+        {
+            var result = obj.FirstNameValidate("Girase");
             Assert.IsTrue(result);
         }
     }
+
 }

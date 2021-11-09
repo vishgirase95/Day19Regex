@@ -8,7 +8,10 @@ namespace RegexProject
         {
           
             RegexPatterns obj = new RegexPatterns();
-            Console.WriteLine(obj.FirstNameValidate("Vishal"));
+            Console.WriteLine("First name validation : "+obj.FirstNameValidate("Vishal"));
+
+            Console.WriteLine("Last name Validation : " +obj.LastNameValidate("Girase"));
+
 
         }
     }
