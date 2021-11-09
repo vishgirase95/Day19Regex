@@ -1,0 +1,14 @@
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\bin\Debug\netcoreapp3.1\RegexProject.exe
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\bin\Debug\netcoreapp3.1\RegexProject.deps.json
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\bin\Debug\netcoreapp3.1\RegexProject.runtimeconfig.json
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\bin\Debug\netcoreapp3.1\RegexProject.runtimeconfig.dev.json
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\bin\Debug\netcoreapp3.1\RegexProject.dll
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\bin\Debug\netcoreapp3.1\RegexProject.pdb
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.csproj.AssemblyReference.cache
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.AssemblyInfoInputs.cache
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.AssemblyInfo.cs
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.csproj.CoreCompileInputs.cache
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.dll
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.pdb
+D:\bridgelabz\Day19REGEX\RegexProject\RegexProject\obj\Debug\netcoreapp3.1\RegexProject.genruntimeconfig.cache
