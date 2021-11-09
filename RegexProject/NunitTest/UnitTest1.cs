@@ -29,6 +29,12 @@ namespace NunitTest
             var result = obj.FirstNameValidate("Girase");
             Assert.IsTrue(result);
         }
+        [Test]
+        public void GivenUserInput_ShouldValidate_GivenPatternOfMailID()
+        {
+            var result = obj.EmailIdValidate("dayalcool123@yahoo.com");
+            Assert.IsTrue(result);
+        }
     }
 
 }

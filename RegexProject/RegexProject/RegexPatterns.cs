@@ -11,6 +11,8 @@ namespace RegexProject
 
         public static string FirstNamePattern = "^[A-Z]{1}[a-z]{2,}$";
         public static string LastNamePattern = "^[A-Z]{1}[a-z]{2,}$";
+        public static string EmailIDPattern = "^[a-z]{3,}[.]*[a-zA-Z0-9]{1,}[@]{1}[a-z]{3,}[.]{1}[a-z]{2,4}$";
+
 
 
 
@@ -25,6 +27,12 @@ namespace RegexProject
         {
             return Regex.IsMatch(LastName, LastNamePattern);
         }
+
+        public bool EmailIdValidate(string Email)
+        {
+            return Regex.IsMatch(Email, EmailIDPattern);
+        }
+
 
     }
 
