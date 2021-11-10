@@ -13,6 +13,8 @@ namespace RegexProject
         public static string LastNamePattern = "^[A-Z]{1}[a-z]{2,}$";
         public static string EmailIDPattern = "^[a-z]{3,}[.]*[a-zA-Z0-9]{1,}[@]{1}[a-z]{3,}[.]{1}[a-z]{2,4}$";
         public static string MobilePattern = "^[1-9]{1}[0-9]{1,2}[ ]{1}[7-9]{1}[0-9]{9}$";
+        public static string PaswordPattern = "^[a-zA-Z0-9]{6,}$";
+
 
 
 
@@ -39,7 +41,10 @@ namespace RegexProject
         {
             return Regex.IsMatch(Number, MobilePattern);
         }
-
+        public bool PaswordValidate(string Pasword)
+        {
+            return Regex.IsMatch(Pasword, PaswordPattern);
+        }
     }
 
 

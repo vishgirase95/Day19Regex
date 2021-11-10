@@ -42,6 +42,13 @@ namespace NunitTest
             var result = obj.PhoneNumberValidate("91 8806001896");
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void GivenUserInput_ShouldValidate_GivenPaswordPattern()
+        {
+           var result= obj.PaswordValidate("8s88shsdyd8d");
+            Assert.IsTrue(result);
+        }
     }
 
 }
