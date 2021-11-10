@@ -16,6 +16,9 @@ namespace RegexProject
         public static string PaswordPattern = "^[a-zA-Z0-9]{8,}$";
         public static string PaswordPatternWithOneCap = "^(?=.*[A-Z])[a-zA-Z0-9]{8,}$";
         public static string PaswordPatternWithOneNumeric = "^(?=.*[0-9])[a-zA-Z0-9]{8,}$";
+        public static string PaswordPatternWithOneSpecialChar = "^(?=.*[!*@#$()%^&+=]).*[a-zA-Z0-9]{8,}$";
+
+
 
 
 
@@ -59,7 +62,13 @@ namespace RegexProject
         {
             return Regex.IsMatch(pasword3, PaswordPatternWithOneNumeric);
         }
+
+        public bool PaswordWithOneSpecialChar(string pasword4)
+        {
+            return Regex.IsMatch(pasword4, PaswordPatternWithOneSpecialChar);
+        }
     }
+
 
 
 }
