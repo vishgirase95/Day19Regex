@@ -62,7 +62,7 @@ namespace NunitTest
         public void GivenUserInput_ShouldValidate_GivenWithNumeric()
         {
 
-            var result = obj.PaswordWithOneNUmeric("aafdA776DD");
+            var result = obj.PaswordWithOneNUmeric("aafdAsdsv776DD");
             Assert.IsTrue(result);
 
         }
