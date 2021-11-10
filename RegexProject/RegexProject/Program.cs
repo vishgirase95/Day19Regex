@@ -17,7 +17,9 @@ namespace RegexProject
              
             Console.WriteLine("Phone Number Validation : " + obj.PhoneNumberValidate("911 8806001896"));
             Console.WriteLine("Pasword Validation : " + obj.PaswordValidate("88060055"));
-            Console.WriteLine("Pasword Validation : " + obj.PaswordWithOneCapValidate("AAA88060bbA055"));
+            Console.WriteLine("Pasword Validation with one Caps : " + obj.PaswordWithOneCapValidate("AAAbbAchgghhgfj45"));
+            Console.WriteLine("Pasword Validation with One Numeric : " + obj.PaswordWithOneNUmeric("AAAbbAchgghhgfj45"));
+
 
 
 
