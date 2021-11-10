@@ -49,6 +49,14 @@ namespace NunitTest
            var result= obj.PaswordValidate("8s88shsdyd8d");
             Assert.IsTrue(result);
         }
+        [Test]
+        public void GivenUserInput_ShouldValidate_GivenCapsPasword()
+        {
+
+            var result = obj.PaswordWithOneCapValidate("aafdA776DD");
+            Assert.IsTrue(result);
+
+        }
     }
 
 }

@@ -13,7 +13,16 @@ namespace RegexProject
         public static string LastNamePattern = "^[A-Z]{1}[a-z]{2,}$";
         public static string EmailIDPattern = "^[a-z]{3,}[.]*[a-zA-Z0-9]{1,}[@]{1}[a-z]{3,}[.]{1}[a-z]{2,4}$";
         public static string MobilePattern = "^[1-9]{1}[0-9]{1,2}[ ]{1}[7-9]{1}[0-9]{9}$";
-        public static string PaswordPattern = "^[a-zA-Z0-9]{6,}$";
+        public static string PaswordPattern = "^[a-zA-Z0-9]{8,}$";
+
+
+
+
+
+
+
+        public static string PaswordPatternWithOneCap = "^(?=.*[A-Z])[a-zA-Z0-9]{8,}$";
+
 
 
 
@@ -45,6 +54,12 @@ namespace RegexProject
         {
             return Regex.IsMatch(Pasword, PaswordPattern);
         }
+
+        public bool PaswordWithOneCapValidate(string pasword2)
+        {
+            return Regex.IsMatch(pasword2, PaswordPatternWithOneCap);
+        }
+        
     }
 
 
