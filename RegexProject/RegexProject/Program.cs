@@ -14,9 +14,11 @@ namespace RegexProject
             Console.WriteLine("Last name Validation : " +obj.LastNameValidate("Girase"));
             
             Console.WriteLine("Email Validation : " + obj.EmailIdValidate("vish.girase95@gmail.in"));
-
+             
             Console.WriteLine("Phone Number Validation : " + obj.PhoneNumberValidate("911 8806001896"));
-            Console.WriteLine("Pasword Validation : " + obj.PaswordValidate("8806001896"));
+            Console.WriteLine("Pasword Validation : " + obj.PaswordValidate("88060055"));
+            Console.WriteLine("Pasword Validation : " + obj.PaswordWithOneCapValidate("AAA88060bbA055"));
+
 
 
 
@@ -24,3 +26,5 @@ namespace RegexProject
         }
     }
 }
+
+
