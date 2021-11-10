@@ -57,6 +57,13 @@ namespace NunitTest
             Assert.IsTrue(result);
 
         }
+        public void GivenUserInput_ShouldValidate_GivenNumericPasword()
+        {
+
+            var result = obj.PaswordWithOneNUmeric("aafdA776DD");
+            Assert.IsTrue(result);
+
+        }
     }
 
 }
